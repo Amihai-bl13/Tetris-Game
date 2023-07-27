@@ -54,6 +54,7 @@ namespace Tetris
             offset.Column += columns;
         }
 
+        //Reset start position & rotation
         public void Reset()
         {
             rotationState = 0;
